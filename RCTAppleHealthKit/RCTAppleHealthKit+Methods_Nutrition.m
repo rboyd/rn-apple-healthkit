@@ -17,7 +17,7 @@
 {
     NSString *hkTypeString = input[@"typeName"];
     NSArray *items = @[@"DietaryCarbohydrates", @"DietaryFatTotal", @"DietaryProtein",
-			@"DietarySodium", @"DietaryFiber", @"DietarySugar"];
+			@"DietarySodium", @"DietaryFiber", @"DietarySugar", @"DietaryEnergy"];
     int item = [items indexOfObject:hkTypeString];
     HKQuantityTypeIdentifier targetType;
     HKUnit *unit = [RCTAppleHealthKit hkUnitFromOptions:input key:@"unit" withDefault:[HKUnit gramUnit]];
@@ -40,6 +40,9 @@
       break;
     case 5:
       targetType = HKQuantityTypeIdentifierDietarySugar;
+      break;
+    case 6:
+      targetType = HKQuantityTypeIdentifierDietaryEnergyConsumed;
       break;
     }
 
