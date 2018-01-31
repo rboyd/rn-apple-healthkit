@@ -75,7 +75,7 @@
 
 
 - (void)vitals_getBloodPressureSamples:(NSDictionary *)input callback:(RCTResponseSenderBlock)callback
-{
+{/*
     HKCorrelationType *bloodPressureCorrelationType = [HKCorrelationType correlationTypeForIdentifier:HKCorrelationTypeIdentifierBloodPressure];
     HKQuantityType *systolicType = [HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierBloodPressureSystolic];
     HKQuantityType *diastolicType = [HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierBloodPressureDiastolic];
@@ -124,7 +124,7 @@
             callback(@[RCTMakeError(@"error getting blood pressure samples", nil, nil)]);
             return;
         }
-    }];
+    }];*/
 }
 
 
