@@ -43,6 +43,7 @@
       break;
     case 6:
       targetType = HKQuantityTypeIdentifierDietaryEnergyConsumed;
+      unit = [HKUnit kilocalorieUnit];
       break;
     }
 
