@@ -16,7 +16,7 @@ export const Permissions = {
   BodyMassIndex: "BodyMassIndex",
   BodyTemperature: "BodyTemperature",
   DateOfBirth: "DateOfBirth",
-  DietaryEnergy: "DietaryEnergy",
+  DietaryEnergyConsumed: "DietaryEnergyConsumed",
   DietaryCarbohydrates: "DietaryCarbohydrates",
   DietaryFatTotal: "DietaryFatTotal",
   DietaryProtein: "DietaryProtein",
