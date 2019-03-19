@@ -7,8 +7,8 @@
 #import "RCTAppleHealthKit+Queries.h"
 #import "RCTAppleHealthKit+Utils.h"
 
-#import <RCTBridgeModule.h>
-#import <React/Base/RCTEventDispatcher.h>
+#import <React/RCTBridgeModule.h>
+#import <React/RCTEventDispatcher.h>
 
 @implementation RCTAppleHealthKit (Methods_Nutrition)
 
